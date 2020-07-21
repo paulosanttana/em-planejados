@@ -11,3 +11,330 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+input, button {
+  outline: 0;
+}
+
+:root {
+  --cor-verde: #059E26;
+  --cor-roxo: #2f2e41;
+  --cor-borda: #ddd;
+}
+
+
+
+/* NAVBAR -----------------------------   */
+.navbar .navbar-collapse {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.navbar .navbar-collapse a {
+  /* background: red; */
+  margin: 0 10px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Carrosel ------------- */
+.carousel .slide {
+  height: ;
+}
+
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.carousel-caption h2 {
+  font-size: 60px;
+}
+
+.btn-orcamento {
+  width: 160px;
+  height: 30px;
+  background: var(--cor-verde);
+  border-radius: 5px;
+  border: none;
+
+  font-size: 13px;
+  /* font-family: 'Roboto'; */
+  font-weight: bold;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-orcamento a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-orcamento a:hover {
+  color: rgb(185, 185, 185);
+  text-decoration: none;
+}
+
+.btn-orcamento:hover {
+  color: black;
+  transition: 0.5s;
+  border: none;
+}
+
+#btn-orcamento {
+  display: none;
+  width: 100%;
+  height: 30px;
+}
+
+section.txt-template {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section.txt-template h3 {
+  font-size: 48px;
+  margin-top: 50px;
+  color: var(--cor-roxo);
+}
+
+div.line {
+  width: 80px;
+  height: 2px;
+  background-color: var(--cor-verde);
+  margin-top: 15px;
+}
+section.txt-template hr {
+  width: 5%;
+  border: 0;
+  border: 1px solid #059e26;
+  margin-top: 8px;
+}
+
+/* CARDS */
+section.cards-compromise {
+  margin-top: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+div.card-compromise {
+  width: 380px;
+  height: 291px;
+  background: #fff;
+  margin: 0 15px;
+  
+  border: 1px solid var(--cor-borda);
+  box-sizing: border-box;
+  box-shadow: 1px 4px 4px rgba(0,0,0,0.25);
+  border-radius: 40px 40px 40px 0px; 
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+div.card-compromise:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+div.card-compromise img {
+  width: 30%;
+  height: 30%;
+  margin-bottom: 20px;
+}
+
+div.card-compromise h3 {
+  font-size: 22px;
+  color: var(--cor-roxo);
+}
+
+div.card-compromise p {
+  font-size: 15px;
+  color: var(--cor-roxo);
+  padding: 20px 25px;
+  text-align: center;
+}
+
+
+/* SECTION CONTE-NOS --------------------- */
+section.conte-nos {
+  width: 100%;
+  height: 600px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.conte-nos-contato {
+  width: 660px;
+  height: 471px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.conte-nos-contato h3 {
+  font-size: 48px;
+  color: var(--cor-roxo);
+}
+
+div.conte-nos-contato p {
+  color: var(--cor-roxo);
+  text-align: justify;
+}
+
+div.btn-conte-nos {
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+div.btn-social a {
+  text-decoration: none;
+  width: 190px;
+  height: 50px;
+  margin: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 30px 30px 30px 0px;
+  background: var(--cor-roxo);
+  color: #fff;
+  box-shadow: 6px 6px 20px #c7cbd1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.btn-social span {
+  margin: 0 5px;
+}
+
+ div.btn-social a:hover{
+  border-color: transparent;
+  background-color: var(--cor-verde);
+  transition: 0.5s;
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+section.conte-nos img {
+  width: 396px;
+  height: 471px;
+}
+
+ol.carousel-indicators {
+  display: none;
+} 
+
+
+/* CONTATO ----------------------------- */
+section.contato {
+  width: 100%;
+  height: 500px;
+  
+  background: #f3f4f7;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section.contato img {
+  width: 600px;
+  height: 300px;
+}
+
+section Form {
+  width: 35%;
+}
+
+/* FOOTER ------------------------ */
+section.footer {
+  width: 100%;
+  height: 400px;
+
+  background: black;
+}
+
+
+
+/* RESPONSIVE Mobile -------------RESPONSIVE--------------------------------- */
+@media (max-width: 768px) {
+  section.atributos-empresa p {
+    font-size: 35px;
+    color: #4A5766;
+  }
+}
+
+@media (max-width: 600px) {
+  .carousel-caption h2 {
+    font-size: 1rem;
+  }
+
+  .carousel-caption p {
+    display: none;
+  }
+
+  .carousel-caption button {
+    display: none;
+  }
+
+  #btn-orcamento {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background: var(--cor-verde);
+    border: none;
+    outline-style: none;
+
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .atributos-empresa {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  section.atributos-empresa p {
+    font-size: 25px;
+    color: var(--cor-roxo);
+  }
+
+  section.atributos-empresa img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
