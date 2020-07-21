@@ -17,20 +17,7 @@ function App() {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#sobre">Sobre</Nav.Link>
             <Nav.Link href="#servico">Serviço</Nav.Link>
-            {/* <NavDropdown title="Serviços" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Cozinha</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-            </NavDropdown> */}
           </Nav>
-          {/* <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
-          </Nav> */}
         </Navbar.Collapse>
       </Navbar>
       
@@ -38,7 +25,7 @@ function App() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={'img/kitchen.png'}
+            src={process.env.PUBLIC_URL + '/img/kitchen.png'}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -53,7 +40,7 @@ function App() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={'img/kitchen.png'}
+            src={process.env.PUBLIC_URL + '/img/kitchen.png'}
             alt="Third slide"
           />
 
@@ -66,7 +53,7 @@ function App() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={'img/kitchen.png'}
+            src={process.env.PUBLIC_URL + '/img/kitchen.png'}
             alt="kitchen slide"
           />
 
@@ -87,17 +74,17 @@ function App() {
 
       <section className="cards-compromise">
         <div className="card-compromise">
-          <img src={'img/engineers.svg'} alt="engineers"/>
+          <img src={process.env.PUBLIC_URL + '/img/engineers.svg'} alt="engineers"/>
           <h3>Profissional</h3>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur consectetur.</p>
         </div>
         <div className="card-compromise">
-          <img src={'img/specs.svg'} alt="specs"/>
+          <img src={process.env.PUBLIC_URL + '/img/specs.svg'} alt="specs"/>
           <h3>Orçamento</h3>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur consectetur.</p>
         </div>
         <div className="card-compromise">
-          <img src={'img/contract.svg'} alt="contract"/>
+          <img src={process.env.PUBLIC_URL + '/img/contract.svg'} alt="contract"/>
           <h3>Contrato</h3>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur consectetur.</p>
         </div>
@@ -122,7 +109,7 @@ function App() {
             </div>
           </div>
         </div>
-        <img src={'img/light-man.svg'} alt="luz"/>
+        <img src={process.env.PUBLIC_URL + '/img/light-man.svg'} alt="luz"/>
       </section>
 
       <section className="txt-template" id="servico">
@@ -135,21 +122,21 @@ function App() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={'img/kitchen.png'}
+              src={process.env.PUBLIC_URL + '/img/kitchen.png'}
               alt="First slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={'img/kitchen.png'}
+              src={process.env.PUBLIC_URL + '/img/kitchen.png'}
               alt="Third slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={'img/kitchen.png'}
+              src={process.env.PUBLIC_URL + '/img/kitchen.png'}
               alt="kitchen slide"
             />
           </Carousel.Item>
@@ -157,7 +144,7 @@ function App() {
       {/* </section>             */}
 
      <section className="contato">
-       <img src={'img/contact_us_1.svg'} alt="contact"/>
+       <img src={process.env.PUBLIC_URL + '/img/contact_us_1.svg'} alt="contact"/>
        <Form>
           <Form.Group controlId="formBaseicText">
             <Form.Control type="text" placeholder="Nome Completo"/>
